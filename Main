@@ -13,22 +13,21 @@ public class Main
         System.out.print("What is the y-intercept of your line?");
         double yIntc =  kbReader.nextDouble();
 
-        LinearFunction line = new LinearFunction(slope, ylntc);
+        LinearFunction line = new LinearFunction(slope, yIntc);
               
         System.out.println("The Slope of this line is:" + line.getSlope());
               
-        System.out.println(“Y-intercept of this line is:  “+line.getYIntercept());  
+        System.out.println("Y-intercept of this line is:  "+line.getYintercept());  
         System.out.println("Root of this line is:" + line.getRoot());
 
-               System.out.print “\nWhat is an x value for which you wish to solve for y?");
+               System.out.print ("\nWhat is an x value for which you wish to solve for y?");
                double x = kbReader.nextDouble();
                double yValue =  line.getYvalue(x);
-               System.out.println(“ The y value responding tox-x+"yVae)
+               System.out.println(" The y value corresponding to x = " + yValue);
                
-        System.out.printn(“\nWhat is a y value for which you wish to solve for x? ");
-               double y  = kbReader.nextDoubl():
+        System.out.println("\nWhat is a y value for which you wish to solve for x? ");
+               double y  = kbReader.nextDouble();
                double xValue = line.getXvalue(y);
-                System.out.println (The x value corresponding to y = " + y + "is" +xValue):
+                System.out.println ("The x value corresponding to y = " + y + " is " +xValue);
    }
 }
-
