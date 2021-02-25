@@ -70,8 +70,8 @@ Slope of this line is -3.0
 Y-intercept of this line is: 2.5
 Root of this 1ine is 0.8333333333333334
 
-What is an x value for which you wish to solve for y? -4 61
-The y value corresponding to 4.61 is 16.330000000000002
+What is an x value for which you wish to solve for y? -4.61
+The y value corresponding to -4.61 is 16.330000000000002
 
 What is a y value for which you wish to solve for x? 5.0
 The x value corresponding to y = 5.0 is -0.833333333333334
